@@ -31,7 +31,6 @@ main()'''
 #Part 3
 from sys import argv
 
-
 def printName(n):
    name = "Jared Allen Wenceslao"
    for i in range(n):
