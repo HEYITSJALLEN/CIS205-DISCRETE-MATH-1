@@ -17,6 +17,6 @@ for line in contentFiles:
         if char.isdigit():
             totalValues += int(char)
             
-print("There are: ",totalOfEight," eights in this file.")      
+print("There are total of: ",totalOfEight," eights in this file.")      
 print("Total of all digits is",totalValues)
 print(line)
