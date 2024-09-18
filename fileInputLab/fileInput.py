@@ -7,8 +7,11 @@ from sys import argv
 print(argv[0]) # ---> Arguemnt 0 is a python file
 print(argv[1])"""
 
+#Part 1
 # Loop through each line of the file
-if len(argv) == 1:        
+if len(argv) == 1:      
+    '''argv[1] refers to the first argument provided after the script's name when running the program from the command line.
+    It represents the file name that the user inputs so the program knows which file to open and process.'''
     exit("Error: Please input the right file name.")
 
 
@@ -18,6 +21,7 @@ contentFiles = filePath.readlines()
 totalOfEight = 0 # Initialize a counter for the total number of '8' digits found in the file
 totalValues = 0 # Initialize a sum for the total value of all digits in the file
 
+#Part 2
 for line in contentFiles: 
     line = line.rstrip()
     i = line.count("8")  #Count the occurrences of the digit '8' in the current line
