@@ -38,5 +38,5 @@ def main():
 
 #M A I N
 if len(argv) == 1:        #Program produces a response in the absence of a command-line input
-        exit("Error: Please input file name.")
+        exit("Error: Please input the right file name.")
 main()
