@@ -1,8 +1,8 @@
 #Jared Allen Wenceslao
 from sys import argv
 
-#A function called isStatement() to contain all of the condition statements
-#to be based as a criteria on reading a sentence each line.
+# A function called isStatement() to contain all of the condition statements
+# Based as a criteria on reading a sentence each line.
 def isStatement(line):
     line = line.strip()
 
@@ -25,7 +25,7 @@ def isStatement(line):
         
     return True
 
-#A function to contain the main function.
+# Function to contain the main function.
 def main():
     filePath = open(argv[1])
     contents = filePath.readlines()
@@ -36,7 +36,7 @@ def main():
         else:
             print(line.strip(), ': NOT A STATEMENT')
 
-#M A I N
+# Main
 if len(argv) == 1:        #Program produces a response in the absence of a command-line input
         exit("Error: Please input the right file name.")
 main()
