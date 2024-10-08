@@ -11,14 +11,14 @@ A = [int(line.strip()) for line in contents] #Converts the list into integers
 def sortSelection(p, r):
     if p < r:
         q = divide(p, r)
-        # Recursively sort the sublists before and after the partition.
+        #Recursively sort the sublists before and after the partition.
         sortSelection(p, q - 1)
         sortSelection(q + 1, r)
 
 def divide(p, r):
     x = A[r]
     i = p - 1
-    # Iterate through the elements in the range [p, r-1].
+    #Iterate through the elements in the range [p, r-1].
     for j in range(p, r):
         if A[j] <= x:
             i += 1
