@@ -1,6 +1,6 @@
 from sys import argv
 
-#This program will produce a response based in the absence of a command-line input
+
 if len(argv) == 1:        
     exit("Error: Please input file name.")
 
