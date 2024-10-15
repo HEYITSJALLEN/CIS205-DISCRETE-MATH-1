@@ -3,6 +3,7 @@ from sys import argv
 def main():
     filePath = open(argv[1])
     contents = filePath.readlines()
+    # PARING THE LINE CONTENTS
     line1 = contents[0].rstrip()
     line2 = contents[1].rstrip()
     splitA = line1.split(" ")
