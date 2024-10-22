@@ -44,7 +44,8 @@ def cartesian(setA, setB):
     cartesianResult = [f'({a},{b})' for a in setA for b in setB]
     return cartesianResult
 
-#M A I N
-if len(argv) == 1:        #Program produces a response in the absence of a command-line input
+# Main
+# This program creates a response in the absence of a command-line input
+if len(argv) == 1:        
     exit("Error: Please input file name.")
 main()
