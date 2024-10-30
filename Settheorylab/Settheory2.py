@@ -10,21 +10,21 @@ def main():
     setA = set(splitA)
     setB = set(splitB)
 
-    #Print sets A and B
+    # Prints sets A and B
     print("A = {" + ', '.join(setA) + "}")
     print("B = {" + ', '.join(setB) + "}")
 
-    #intersection
+    # Prints the intersection
     print("A intersect B = {" + ', '.join(intersection(setA, setB)) + "}")
 
-    #union
+    # Prints union
     print("A union B = {" + ', '.join(union(setA, setB)) + "}")
     
-    #Aminus and Bminus
+    # Prints Aminus and Bminus
     print("A - B = {" + ', '.join(Aminus(setA, setB)) + "}")
     print("B - A = {" + ', '.join(Bminus(setA, setB)) + "}")
 
-    #cartesian product
+    # Print cartesian product
     print("A x B = {"+ ', '.join(cartesian(setA, setB)) + "}")
     print("B x A = {" + ', '.join(cartesian(setB, setA)) + "}")
 
