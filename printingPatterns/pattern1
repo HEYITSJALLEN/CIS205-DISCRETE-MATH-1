@@ -1,0 +1,7 @@
+def pattern(n):
+    for i in range(0, n):
+        for j in range(0, i + 1):
+            print("*", end=" ")
+        print()  # Move this line outside the inner loop to print a new line after each row
+
+pattern(5)
