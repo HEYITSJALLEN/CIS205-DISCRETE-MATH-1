@@ -26,3 +26,17 @@ students = [
     (101,"Dandy","Computer Science","HI"),
     (103,"Pipert","IT", "SF")
 ]
+
+petOwner = [
+    ('Jared, Spot', 'Bob', 'Dog', 'Hound'),
+    ('Dandy, Mary', 'Bob', 'Cat', 'Siamese'),
+    ('Blanky, Pipert', 'Bob', 'Cat', 'Persian'),    
+    ('Ricardo, Dodong', 'Bob', 'Dog', 'Poodle'),   
+]
+
+"""
+Reject - filters columns
+Project - filters columns
+Select - filters rows
+
+"""
