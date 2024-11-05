@@ -38,9 +38,9 @@ The get_name() function looks up a person's name by their ID.
 The loop at the end prints out each friendship. """
 
 """
-[] List - Ordered (Allows duplicates, mutable)
-{} Set - Unordered (No duplicate, mutable)
-() Tuple - Ordered (Immutable, No changes)
+[] List - Ordered (Allows duplicates, mutable) --> Same types ---> Fast but if its more it will slow
+{} Set - Unordered (No duplicate, mutable) ---> Same type ---> Fast but if its more it will slow
+() Tuple - Ordered (Immutable, No changes) ---> Different type of sample ---> Way more faster
 
 Dictionary
 
