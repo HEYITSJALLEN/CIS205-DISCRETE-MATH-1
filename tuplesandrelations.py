@@ -38,9 +38,9 @@ The get_name() function looks up a person's name by their ID.
 The loop at the end prints out each friendship. """
 
 """
-[] List - Ordered
-{} Set - Unordered
-() Tuple - Ordered
+[] List - Ordered (Allows duplicates, mutable)
+{} Set - Unordered (No duplicate, mutable)
+() Tuple - Ordered (Immutable, No changes)
 
 Dictionary
 
