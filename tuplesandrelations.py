@@ -36,3 +36,12 @@ Tuples person1, person2, etc., store each person's ID and name.
 Relationships (friendships) are represented as tuples of IDs, where each tuple indicates a friendship between two people.
 The get_name() function looks up a person's name by their ID.
 The loop at the end prints out each friendship. """
+
+"""
+[] List - Ordered
+{} Set - Unordered
+() Tuple - Ordered
+
+Dictionary
+
+"""
