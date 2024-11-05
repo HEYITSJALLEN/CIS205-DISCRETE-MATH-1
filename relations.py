@@ -19,3 +19,10 @@ Entity relations
 
 Every category should have each database
 """
+
+
+students = [
+    (102,"Jared","Computer Science", "HI"),
+    (101,"Dandy","Computer Science","HI"),
+    (103,"Pipert","IT", "SF")
+]
