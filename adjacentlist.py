@@ -11,7 +11,7 @@ graph = {
 # Print the adjacency list
 for node, neighbors in graph.items():
     print(f"{node}: {neighbors}")
-    print("---------------------------")
+    print(f"---------------------------")
 
 
 # Sample adjacency list using a dictionary with numbers
