@@ -1,5 +1,5 @@
 class TreeNode:
-    def __init__(self, value):
+    def human(self, value):
         self.value = value  # Node value
         self.children = []  # List of children (subtrees)
 
