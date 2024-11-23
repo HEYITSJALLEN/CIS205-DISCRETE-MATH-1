@@ -18,23 +18,23 @@ else:
         formulas.append(line)
         
         #evaluate RPN expression
-        for i in line:
-            if i == "+":
+        for num in line:
+            if num == "+":
                 b = stack.pop()
                 a = stack.pop()
                 result = float(a) + float(b)
                 stack.append(float(result))
-            elif i == "-":
+            elif num == "-":
                 b = stack.pop()
                 a = stack.pop()
                 result = float(a) - float(b)
                 stack.append(float(result))
-            elif i == "*":
+            elif num == "*":
                 b = stack.pop()
                 a = stack.pop()
                 result = float(a) * float(b)
                 stack.append(float(result))
-            elif i == "/":
+            elif num == "/":
                 b = stack.pop()
                 a = stack.pop()
                 result = float(a) / float(b)
