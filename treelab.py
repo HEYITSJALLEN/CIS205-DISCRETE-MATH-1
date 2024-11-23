@@ -6,10 +6,19 @@ print()
 # Create a method (2.)
 # Use split method to convert the input string to a split
 inputList = inputString.split()
-print(inputList)
+# print(inputList)
 
+
+myStack = []
 # Loop through (and print) each item in the inputList (3.1)
 for item in inputList:
-    #print(item)
+    # print(item)
     # if the next item is a number, push it onto the stack.
-    if item is.
+    if item.isnumeric() == True: # ----> .isnumeric is a method or property
+        myStack.append(item)
+
+print(myStack)
+    #     print("YES")
+    # else:
+    #     print ("NO")
+    
