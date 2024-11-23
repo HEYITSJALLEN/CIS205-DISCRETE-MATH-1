@@ -15,10 +15,10 @@ for item in inputList:
     # print(item)
     # if the next item is a number, push it onto the stack.
     if item.isnumeric() == True: # ----> .isnumeric is a method or property
-        myStack.append(item)
+        myStack.append(int(item))
     else:
         num1 = myStack.pop()
-        num2 = myStack.pop()
+        num2 = myStack.pop() #int(myStack.pop()) 
     # if the next item is an operator, pop the last two items
     #from the stack and store them as num1 and num2
         if item == "+":
@@ -30,7 +30,7 @@ for item in inputList:
         elif item == "/":
             result = num1 / num2
 
-            # Can't multiply sequence by non-int of type 'str'
+            # Can't multiply sequence by non-integer of type 'str'
     
 
 # print(myStack)
