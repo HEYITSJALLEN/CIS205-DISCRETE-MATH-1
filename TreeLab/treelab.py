@@ -40,7 +40,7 @@ else:
                 result = float(a) / float(b)
                 stack.append(float(result))
             else:
-                stack.append(float(i))
+                stack.append(float())
 
     #Printing original RPN expressions and their results
     for i in range(len(formulas)):
