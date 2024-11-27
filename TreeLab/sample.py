@@ -1,7 +1,5 @@
 inputString = "6 6 * 2 7 * - 2 /"
 # print the input string (1.)
-print()
-
 
 # Create a method (2.)
 # Use split method to convert the input string to a split
@@ -17,9 +15,9 @@ for item in inputList:
     if item.isnumeric() == True: # ----> .isnumeric is a method or property
         myStack.append(int(item))
     else:
-        num1 = myStack.pop()
-        num2 = myStack.pop()
-
+        # If the item is an operator, pop the last two items from the stack
+        num2 = myStack.pop() # Second popped value (right operand)
+        num1 = myStack.pop() # First popped value (left operand)
         
     # If the next item is an operator, pop the last two items
     # Perform the operation based on the operator
@@ -31,11 +29,13 @@ for item in inputList:
         elif item == "*":
             result = num1 * num2
         elif item == "/":
-            result = num1 / num2
+            result = num1 / num2  
 
             # Can't multiply sequence by non-integer of type 'str'
-             # Push the result back onto the stack
+            # Push the result back onto the stack
         myStack.append(result)
     
 
-print("Final Result:", myStack.pop())
+# Step 5: Pop and print the final result from the stack
+finalResult = myStack.pop()
+print("Final Result:", finalResult)
